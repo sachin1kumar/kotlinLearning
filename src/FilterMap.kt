@@ -1,6 +1,6 @@
 fun main(args: Array<String>) {
 
-    val list = listOf(1,2,3,4,5)
+    val list = listOf(1,2,3,4,5) //read only list of collections(immutable).
 
     var selecteditems = list.filter { it < 4 }
 
